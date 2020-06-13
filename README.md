@@ -5,7 +5,7 @@ Note there are two methods for training DETR:</br>
 1 - Fine tune the existing head.  This is the initial process I will setup here.</br>
 2 - Train from scratch.  This is the next process I'll show.</br>
 
-Generally fine tuning the pre-trained head is likely the best place to start. 
+Generally fine tuning the pre-trained head is likely the best place to start.</br> 
 Note that your dataset must be in COCO format.  
 
 DETR was developed and open sourced by Facebook AI Research - link to their github which should supercede any info here when in doubt:
