@@ -8,6 +8,11 @@ Note there are two methods for training DETR:</br>
 Generally fine tuning the pre-trained head is likely the best place to start.</br> 
 Note that your dataset must be in COCO format.  
 
+Updates - Detr is now available in detectron2 so that may be an option for some.  </br>
+I've added a custom dataset class which will handle the class id remapping needed to train with DETR directly.</br>
+
+
+
 DETR was developed and open sourced by Facebook AI Research - link to their github which should supercede any info here when in doubt:
 https://github.com/facebookresearch/detr
 
